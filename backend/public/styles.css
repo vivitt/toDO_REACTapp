@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a i {
+    color: black;
+}
+
+a i:hover {
+    color: #515080;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+    
+}
+
+.add-task, .task-custom {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.add-task input {
+    background-color: white;
+    color: black;
+    appearance: none;
+    border-color: transparent;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-style: none;
+    padding: 0.5rem;
+    
+    outline: none;
+    
+}
+
+.add-task input {
+    width: 300px;
+}
+.add-task button {
+    width: 70px;
+    background-color: transparent;
+    outline: none;
+    appearance: none;
+    border-style: none;
+}
+
+
+
+.task-custom select, .task-custom button {
+    background-color: white;
+    color: black;
+    outline: none;
+    margin: 0.3rem;
+   
+    border-style: none;
+    padding: 0.5rem;
+    
+}
+.task-custom button {
+    width: 50px;  
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    align-items: center;
+    padding: 0.7rem 0;
+    
+    
+}
+.task-custom button i {
+
+    padding: 0.1rem 0 0.5rem 0;
+    
+    
+}
+.task-custom select {
+    width: 240px;
+}
+
+.list {
+    margin-top: 5rem;
+    margin-left: 0;
+    width: 50%;
+    background-color: white;
+
+}
+
+
+ul {
+    
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    margin-left: 0;
+    
+}
+
+.list li {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.list li button {
+    background-color: white;
+    color: #9D98EE;
+    outline: none;
+    
+    justify-self: right;
+    border-color: transparent;
+    
+  
+    border-style: none;
+    
+    
+    outline: none;
+}
+.list li input:checked {
+    text-decoration: line-through;
+}
+
+
+/* .one-task-list {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.no-task {
+    margin-top: 10rem;
+} */
+
+
+/*****************LOGIN & REGISTER ************************************/
+
+.login, .register{
+    margin-top: 5rem;
+    margin-left: 0;
+    width: 50%;
+    background-color: white;
+
+}
+
+.login input, .register input {
+    background-color: white;
+    color: black;
+    appearance: none;
+    border-color: transparent;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-style: none;
+    padding: 0.5rem;
+    
+    outline: none;
+}
+
+.login button, .register button {
+    background-color: black;
+    color: white;
+    outline: none;
+    margin: 0.3rem;
+   
+    border-style: none;
+    padding: 0.5rem;
+}
+
+.login a, .register a {
+    color: black;
+    text-decoration: none;
+}
+
+.login a:hover, .register a:hover {
+    color: #515080;
+}
